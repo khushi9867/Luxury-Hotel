@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relaxation Spot - Luxury Hotel</title>
+    <link rel="stylesheet" href="styles.css">
+   
+</head>
+<body>
+    <header>
+        <h1>Relaxation Spot</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+                <li><a href="#bookings">Bookings</a></li>
+            </ul>
+        </nav>
+        <button id="theme-toggle">🌙 Dark Mode</button>
+    </header>
+    
+    <div class="hero">
+        <h2>Welcome to Relaxation Spot</h2>
+        <p>Experience the epitome of luxury and comfort at our world-class resort. Nestled in the heart of paradise, we offer an escape like no other.</p>
+    </div>
+    
+    <section id="home"   class="fade-in">
+        <h2>Luxury, Comfort & Serenity</h2>
+        <p>Relaxation Spot is your perfect getaway, whether you are looking for a serene vacation, a business retreat, or a romantic escape.</p>
+        <div class="home-content">
+            <div class="feature">
+                <img src="images/Exquisite Rooms.jpg" alt="Luxury Resort">
+                <h3>Exquisite Rooms</h3>
+                <p>Our elegantly designed rooms and suites offer breathtaking views, plush bedding, and state-of-the-art amenities.</p>
+            </div>
+            <div class="feature">
+                <img src="images/Spa & Wellness.jpg" alt="Spa & Wellness">
+                <h3>Spa & Wellness</h3>
+                <p>Indulge in rejuvenating spa treatments, relaxing massages, and wellness therapies designed to refresh your body and mind.</p>
+            </div>
+            <div class="feature">
+                <img src="images/Scenic Beauty.jpg" alt="Beachfront Resort">
+                <h3>Scenic Beauty</h3>
+                <p>Enjoy stunning landscapes, pristine beaches, and mesmerizing sunsets at our peaceful and luxurious retreat.</p>
+            </div>
+        </div>
+    </section>
+    
+    
+    <div class="infinite-scroll">
+        <img src="images/luxuries hotel.jpg " alt="Luxury Hotel">
+        <img src="images/resort spa.jpg" alt="Resort Spa">
+        <img src="images/beach hotel.jpg" alt="Beach Hotel">
+        <img src="images/luxury room.jpg" alt="Luxury Room">
+        <img src="images/hotel pool.jpg" alt="Hotel Pool">
+    </div>
+    
+    <section id="about"  class="fade-in parallax" style="background-image: url('images/background2.jpg');">
+        <h2>About Us</h2>
+        <p>For over 15 years, Relaxation Spot has been dedicated to providing unparalleled luxury and hospitality to our guests. With a flawless service record and a commitment to excellence, we redefine comfort and relaxation for all who visit.</p>
+        <p>Our team of professionals ensures that every guest experiences the finest amenities, world-class cuisine, and exceptional customer service, making every stay memorable.</p>
+        <section id="testimonials">
+            <h2>What Our Guests Say</h2>
+            <div class="testimonial-container">
+                <div class="testimonial-slide">
+                    <img src="images/Emma R..jpg" alt="Customer 1">
+                    <p>"An absolutely amazing experience! The hospitality was top-notch."</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <h4>- Emma Johnson</h4>
+                </div>
+                <div class="testimonial-slide">
+                    <img src="images/James P..jpg" alt="Customer 2">
+                    <p>"A truly luxurious retreat. The spa and fine dining were incredible!"</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <h4>- Michael Smith</h4>
+                </div>
+                <div class="testimonial-slide">
+                    <img src="images/Olivia M..jpg" alt="Customer 3">
+                    <p>"The best vacation I’ve ever had. The infinity pool is stunning!"</p>
+                    <div class="stars">⭐⭐⭐⭐⭐</div>
+                    <h4>- Olivia Martinez</h4>
+                </div>
+            </div>
+        </section>
+        
+    </section>
+    
+    <section id="contact"  class="fade-in">
+        <h2>Contact Us</h2>
+        <p>Email: contact@relaxationspot.com</p>
+        <p>Phone: +123 456 7890</p>
+    </section>
+    <section id="map">
+        <h2>Find Us Here</h2>
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3770.992329857784!2d72.82812257493493!3d19.076090382123185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7c63086a2b9f3%3A0xa21ff6ccf62fc86c!2sMumbai%2C%20Maharashtra%2C%20India!5e0!3m2!1sen!2sin!4v1710176541234!5m2!1sen!2sin"
+                width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy">
+            </iframe>
+        </div>
+    </section>
+    
+    
+    <section id="bookings">
+        <h2>Book Your Stay</h2>
+        <form id="bookingForm">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="date">Check-in Date:</label>
+            <input type="date" id="date" name="date" required>
+            <button type="submit">Book Now</button>
+        </form>
+    </section>
+    
+    <footer>
+        <p>&copy; 2025 Relaxation Spot. All rights reserved.</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
